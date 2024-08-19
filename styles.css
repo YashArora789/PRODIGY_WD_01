@@ -1,0 +1,145 @@
+* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333; /* Set a base text color */
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit the base text color */
+}
+a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Header section */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+header h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+  background-image: url("Prodigy.png"); /* Replace with your background image */
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+}
+.prodigy img {
+  width: 50%;
+  max-width: 400px; /* Adjust for smaller screens */
+  display: none; /* Hide image on larger screens */
+}
+.prodigy-content {
+    color: white;
+    width: 50%;
+  }
+.prodigy-content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.prodigy-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.prodigy-content a {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+:root {
+    --primary-color: #007bff; /* Replace with your desired primary color */
+    --secondary-color: #f0f0f0; /* Replace with your desired secondary color */
+    --text-color: #333; /* Replace with your desired text color */
+  }
+
+/* About Us section */
+.about-us {
+  padding: 50px 0;
+}
+.about-us h2 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+.about-us p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Benefits section */
+.benefits {
+  padding: 50px 0;
+  text-align: center;
+}
+.benefits h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+.benefits ul {
+  list-style: none;
+  padding: 0;
+}
+.benefits li {
+  margin-bottom: 15px;
+}
+.benefits li:before {
+  content: "\f00c"; /* Font Awesome icon for checkmark */
+  font-family: FontAwesome; /* Replace with your font family */
+  margin-right: 10px;
+  color: #007bff;
+}
+
+/* Call to action section */
+.cta {
+  padding: 50px 0;
+  text-align: center;
+}
+.cta h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+.cta a {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Media queries
